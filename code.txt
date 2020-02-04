@@ -1,6 +1,5 @@
 def train_mnist():
-    # Please write your code only where you are indicated.
-    # please do not remove # model fitting inline comments.
+    
     print(tf.__version__)
     class myCallback(tf.keras.callbacks.Callback):
         def on_epoch_end(self, epoch, logs={}):
